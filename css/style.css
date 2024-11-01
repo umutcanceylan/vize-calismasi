@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin: auto;
+   
+   
+
+   
+    
+}
+ .evrensel {
+  
+   
+ }
+
+ .evrensel h1 {
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+nav {
+    border-style: none;
+    
+   background: red;
+   height: 50px;
+   width: 95%;
+   margin: auto;
+   margin-top: 1%;
+   border: 5px solid;
+}
+
+nav .logo {
+    float: left;
+    
+    margin: 15px;
+}
+
+nav .logo p{
+    font-size: 20px;
+    color: white;
+}
+
+nav .menu {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 15px;
+    
+    
+    
+}
+
+
+nav .menu ul li :hover {
+    background-color: black;
+    border-radius: 10px;
+}
+nav .menu ul li {
+    list-style: none;
+    display: inline;
+    
+    margin-right: 30px;
+    
+
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+article .resimler {
+    width: 75%;
+    height: 300px;
+    
+    margin: auto;
+    margin-top: 10px;
+    
+    border: 5px solid;
+    
+
+    
+    
+}
+
+article .resimler img {
+    width: 100%;
+    height: 100%;
+}
+
+article .klavyeresmivebilgisayardersleri{
+   
+    
+    
+    
+    width: 75%;
+    height: 300px;
+    margin: auto;
+    
+}
+
+article .klavyeresmivebilgisayardersleri .klavyeresmi{
+    
+    
+    
+    height: auto;
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid;
+    float: left;
+    
+
+}
+
+.klavyeresmi img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+article .klavyeresmivebilgisayardersleri .bilgisayardersleri {
+    
+    height: auto;
+    width:32%;
+    margin: auto;
+    margin-top: 1%;
+    border: 5px solid;
+    
+    float: right;
+}
+
+article .klavyeresmivebilgisayardersleri .bilgisayardersleri h1{
+    text-align: center;
+}
+
+
+.bilgisayardersleri ul li {
+    margin: 10px 25px 16px 20px;
+}
+
+ article .anakart {
+    border: 5px solid;
+    width: 74%;
+    height: auto;
+    margin: auto;
+    
+    margin-top: 10px;
+    
+    
+   
+    
+    
+}
+
+article .anakart p {
+    width: 100%;
+    text-align: center;
+}
+
+article .uckutu {
+    width: 75%;
+    margin: auto;
+    
+    margin-top:10px ;
+    display: flex;
+    
+    
+    
+    
+    
+    
+    
+}
+
+article .uckutu h1 {
+    text-align: center;
+}
+article .uckutu ul  {
+    margin-top: 10px;
+}
+ .uckutu .kutu1{
+    width: 31%;
+    border: 4px solid;
+    height: 100px;
+   
+    
+}
+
+.uckutu .kutu1  ul li {
+    margin:  0px 20px;
+
+}
+
+.uckutu .kutu2  ul li {
+    margin:  0px 20px;
+
+}
+.uckutu .kutu3  ul li {
+    margin:  0px 20px;
+
+}
+.uckutu .kutu2{
+    width: 31%;
+    border: 4px solid;
+    height: 100px;
+    
+    
+}
+.uckutu .kutu3{
+    width: 31%;
+    border: 4px solid;
+    height: 100px;
+    
+}
+
+article .ikikutu{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+article .ikikutu h1 {
+    text-align: center;
+}
+
+article .ikikutu h1{
+
+}
+article .ikikutu .kutu1{
+    width: 47%;
+    height: 200px;
+    margin: auto;
+    border: 5px solid;
+    
+}
+
+article .ikikutu .kutu2{
+    width: 47%;
+    height: 200px;
+    margin: auto;
+    border: 5px solid;
+}
+
+article .ikikutu ul  {
+    margin: 30px  20px 10px;
+}
+
+
+footer {
+   
+}
+footer .bilgiresim{
+      
+    width: 92%;
+    border: 5px solid;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    
+    
+}
+
+footer .bilgiresim p {
+    font-size: 20px;
+}
+
+footer .bilgiresim .bilgi p {
+    
+    margin: 10px;
+    
+
+}
+footer .resim {
+    float: right;
+    
+    
+   
+}
+
+footer .resim img {
+    height: 160px;
+    
+    
+    
+}
+
